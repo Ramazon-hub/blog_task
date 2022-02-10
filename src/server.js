@@ -12,4 +12,3 @@ app.use("/media", express.static(path.join(__dirname, "/uploads")));
 app.use(router);
 
 app.listen(PORT || 1001, console.log(`app run on port ${PORT || 1002}`));
-console.log(SIGN({adminId:'a8abaf58-9cbc-41c7-a45c-72c6b5a26258',isSuper:true}))
